@@ -2,7 +2,7 @@
 
 Este projeto consiste em uma **lixeira automatizada controlada por Arduino**, que utiliza um **sensor ultrassônico** para detectar a aproximação de objetos (como uma mão) e acionar automaticamente a abertura da tampa por meio de um **servo motor**.
 
-Foi desenvolvido por **Ana Caroline Leal do Nascimento** e **Fabrício Longo** como um exercício prático de **automação, eletrônica e programação embarcada**.
+Foi desenvolvido por **Ana Caroline Leal do Nascimento** e **Fabrício** como um exercício prático de **automação, eletrônica e programação embarcada**.
 
 ---
 
@@ -83,12 +83,18 @@ void loop()
   servo_9.write(FECHADO);
 }
 ```
-![lixeira](https://github.com/user-attachments/assets/e81026e9-fd1a-474b-9a31-26fe127baf97)
-![lixeira-automatica](https://github.com/user-attachments/assets/19052030-e432-4a72-bc2c-91bc9a96914a)
-![lixeira1](https://github.com/user-attachments/assets/f7c9fe93-2a01-4b5c-aafb-67b79b7c851b)
-![lixeira2](https://github.com/user-attachments/assets/e53a0803-bd7c-4597-83cf-eb287884f890)
-![lixeira3](https://github.com/user-attachments/assets/aae66b82-e405-4173-9963-7de6562ae6b6)
-![lixeira5](https://github.com/user-attachments/assets/b57f2b0e-65ab-4905-baa2-af150cbbabdd)
 
+## Fotos
 
+<img src="lixeira-automatica.jpeg" alt="drawing" width="500"/>
+<img src="lixeira.jpeg" alt="drawing" width="500"/>
+<img src="lixeira1.jpeg" alt="drawing" width="500"/>
+<img src="lixeira2.jpeg" alt="drawing" width="500"/>
+<img src="lixeira3.jpeg" alt="drawing" width="500"/>
+<img src="lixeira5.jpeg" alt="drawing" width="500"/>
+
+## Autores
+
+* **Ana Caroline** - [anac_roline](https://github.com/anac-roline)
+* **Fabrício** - [FabricioLR](https://github.com/FabricioLR)
 
