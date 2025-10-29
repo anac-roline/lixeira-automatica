@@ -82,6 +82,7 @@ void loop()
   Serial.println("Fechando...");
   servo_9.write(FECHADO);
 }
+```
 ![lixeira](https://github.com/user-attachments/assets/e81026e9-fd1a-474b-9a31-26fe127baf97)
 ![lixeira-automatica](https://github.com/user-attachments/assets/19052030-e432-4a72-bc2c-91bc9a96914a)
 ![lixeira1](https://github.com/user-attachments/assets/f7c9fe93-2a01-4b5c-aafb-67b79b7c851b)
