@@ -4,6 +4,8 @@ Este projeto consiste em uma **lixeira automatizada controlada por Arduino**, qu
 
 Foi desenvolvido por **Ana Caroline Leal do Nascimento** e **Fabrício** como um exercício prático de **automação, eletrônica e programação embarcada**.
 
+<img src="screenshots/lixeira_gif.gif" width="250"/>
+
 ---
 
 ## 🧠 Objetivo do Projeto
@@ -58,8 +60,7 @@ long readUltrasonicDistance(int triggerPin, int echoPin){
   return pulseIn(echoPin, HIGH);
 }
  
-void setup()
-{
+void setup(){
   Serial.begin(9600);
   servo_9.attach(5, 500, 2500);
   Serial.println("Lendo dados do sensor...");
@@ -69,8 +70,7 @@ int cm = 0;
 #define ABERTO 5
 #define  FECHADO 120
 
-void loop()
-{
+void loop(){
   cm = 0.01723 * readUltrasonicDistance(4, 3);
   delay(100);
 
@@ -86,12 +86,8 @@ void loop()
 
 ## Fotos
 
-<img src="lixeira-automatica.jpeg" alt="drawing" width="500"/>
-<img src="lixeira.jpeg" alt="drawing" width="500"/>
-<img src="lixeira1.jpeg" alt="drawing" width="500"/>
-<img src="lixeira2.jpeg" alt="drawing" width="500"/>
-<img src="lixeira3.jpeg" alt="drawing" width="500"/>
-<img src="lixeira5.jpeg" alt="drawing" width="500"/>
+<img src="screenshots/lixeira.jpeg" alt="drawing" width="300"/>
+<img src="screenshots/lixeira3.jpeg" alt="drawing" width="300"/>
 
 ## Autores
 
